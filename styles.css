@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    
+}
+.maincontent{
+    background-color: #F3E5D5;
+    padding:40px;   
+}
+.container{
+    max-width: 550px;
+    background-color: #fff;
+    padding:20px;
+    border-radius: 10px;   
+}
+img{
+    border-radius:10px;
+}
+.item{
+    padding:-10px;
+}
+
+.item p{
+    display:inline-block;
+    max-width:100px;
+    line-height: 2rem;
+}
+
+.values{
+    text-align: left;
+    width:50%;
+}
+.ratio{
+    text-align:right;
+    width:50%;
+}
+.ratio strong{
+    color:hsl(14, 45%, 36%);
+}
+
+.preparationtime{
+    background-color:hsl(30, 54%, 90%);
+    border-radius:5px;
+
+}
+.preparationtime h3{
+    padding-left:20px;
+    color:hsl(332, 51%, 32%);
+
+}
+.preparationtime ul{
+    padding-left:50px;
+    line-height: 2.5rem;
+}
+.Ingredients ul{
+    padding-left:40px;
+    line-height: 2.5rem;
+}
+.Ingredients h2{
+    color:hsl(14, 45%, 36%);
+}
+.Instruction ol{
+    padding-left:40px;
+    line-height: 2.5rem;
+}
+.Instruction h2{
+    color:hsl(14, 45%, 36%);
+}
+.Nutrition h2{
+    color:hsl(14, 45%, 36%);
+}
+
+.box p, .box ul{
+    margin-left:10px;
+    margin-top:10px;
+}
+.Nutrition article{
+    border-bottom:1px solid hsl(30, 18%, 87%);
+}
+ol li{
+    color:hsl(332, 51%, 32%);
+}
