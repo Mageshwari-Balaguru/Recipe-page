@@ -1,84 +1,84 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
-    font-family: sans-serif;
-    
+    box-sizing:border-box;  
+}
+:root{
+    --White: #ffffff;
+    --Primary-backgroundstone: #f3e5d5;
+    --Stone15: #e4ded8;
+    --Stone6: #5e574f;
+    --Stone9: #302d2c;
+    --Brown: #854632;
+    --Rose8: #7b284f;
+    --Rose5: #fff5fa;
+}
+.maincontent h1 , .maincontent h2{
+    font-family: 'young serif', serif; 
+    color:var(--Stone9);
+
 }
 .maincontent{
-    background-color: #F3E5D5;
-    padding:40px;   
+    background-color:var(--Primary-backgroundstone);
+    padding:40px; 
+    font-family:'outfit',sans-serif;
+    color:var(--Stone6);
+    font-weight: 400;   
 }
 .container{
     max-width: 550px;
-    background-color: #fff;
+    background-color:var(--White);
     padding:20px;
     border-radius: 10px;   
 }
 img{
     border-radius:10px;
 }
-.item{
-    padding:-10px;
-}
-
-.item p{
-    display:inline-block;
-    max-width:100px;
-    line-height: 2rem;
-}
-
-.values{
-    text-align: left;
-    width:50%;
-}
-.ratio{
-    text-align:right;
-    width:50%;
-}
-.ratio strong{
-    color:hsl(14, 45%, 36%);
-}
-
 .preparationtime{
-    background-color:hsl(30, 54%, 90%);
+    background-color:var(--Rose5);
     border-radius:5px;
 
 }
-.preparationtime h3{
+.preparationtime p{
+    font-size:x-large;
+    padding-top:10px;
     padding-left:20px;
-    color:hsl(332, 51%, 32%);
+    color:var(--Rose8);
+    font-weight:600;
 
 }
 .preparationtime ul{
     padding-left:50px;
     line-height: 2.5rem;
+    list-style-type: square;
 }
 .Ingredients ul{
     padding-left:40px;
     line-height: 2.5rem;
+    list-style-type: square;
 }
-.Ingredients h2{
-    color:hsl(14, 45%, 36%);
+.maincontent h2{
+    color:var(--Brown);
+    font-size:x-large;
 }
 .Instruction ol{
     padding-left:40px;
     line-height: 2.5rem;
 }
-.Instruction h2{
-    color:hsl(14, 45%, 36%);
+
+table{
+    border-collapse: collapse;
+    
 }
-.Nutrition h2{
-    color:hsl(14, 45%, 36%);
+tr{
+    line-height: 5rem;
+}
+td{
+    width:40rem;
+    border-bottom: .01px solid grey;
 }
 
-.box p, .box ul{
-    margin-left:10px;
-    margin-top:10px;
-}
-.Nutrition article{
-    border-bottom:1px solid hsl(30, 18%, 87%);
-}
-ol li{
-    color:hsl(332, 51%, 32%);
+.bold{
+    color:var(--Brown);
+
 }
